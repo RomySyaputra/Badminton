@@ -39,6 +39,6 @@ footer{
     iframe#bracket{
     	width:100%; 
     	height:650px;
-    	zoom: 100%;
+    	transform: scale(1.25)
     }
 }
