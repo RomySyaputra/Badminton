@@ -1,0 +1,44 @@
+body{
+	text-align: center;
+	background-color: rgb(30,31,36);
+	color: white;
+	justify-content: center;
+	align-items: center;
+}
+.cir{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20vh;
+}
+iframe#bracket{
+    width:100%; 
+    height:650px;
+}
+footer{
+	background-color: rgb(52,58,64);
+	color: white;
+	width: 100%;
+	padding: 20px;
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.circle:hover {
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width: 860px) {
+    iframe#bracket{
+    	width:100%; 
+    	height:650px;
+    	zoom: 100%;
+    }
+}
