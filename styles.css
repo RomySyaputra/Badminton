@@ -36,9 +36,9 @@ footer{
     color: white;
 }
 @media screen and (max-width: 860px) {
-    iframe#bracket{
+/*     iframe#bracket{
     	width:100%; 
     	height:650px;
     	transform: scale(1.25)
-    }
+    } */
 }
